@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "upper-case": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node upload.js"
+  }
+}
