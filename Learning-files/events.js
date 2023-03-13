@@ -34,7 +34,7 @@ eventEmitter.emit("connection");
 
 eventListeners = require("events").EventEmitter.listenerCount(
   eventEmitter,
-  "connection"
+  "connection"  
 );
 console.log(eventListeners + " Listner(s) listening to connection event");
 

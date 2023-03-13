@@ -3,7 +3,6 @@ const fs = require("fs");
 
 const directoryPath = path.join(__dirname, "../../Learn-Nodejs/Code");
 
-
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     console.error("Unable to scan directory: " + err);
